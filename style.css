@@ -28,6 +28,26 @@ nav {
   padding-right: 1rem;
 }
 
+.dropdown-items a {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.dropdown-items {
+  display: none;
+  position: absolute;
+  width: 10rem;
+  height: 7rem;
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-items {
+  display: block;
+  padding: 0 0;
+  margin: 0 0;
+}
+
 .nav-dark ul li {
   display: inline;
   padding-right: 0.75rem;
