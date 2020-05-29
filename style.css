@@ -103,7 +103,7 @@ nav {
 
 .cover {
   display: flex;
-  justify-content: space-between;
+  padding: 0 0;
   height: 60vh;
   width: 100%;
 }
@@ -120,7 +120,6 @@ nav {
   height: auto;
   display: flex;
   align-items: flex-end;
- 
 }
 
 .bottom_header {
@@ -135,53 +134,113 @@ nav {
   opacity: 0.5;
 }
 
-
 .article_container {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 30vw;
-  height: 30vh;
+  height: 60vh;
 }
 
 .cover_article {
-   width: 100%;
-   height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .cover_article_top {
-  background: gray;
+  background-image: url(images/cover_div_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cover_article_bottom {
-  background: grey;
+  background-image: url(images/google.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest_news {
   display: flex;
   flex-direction: column;
-  height: 80vh;
-  /* width: 100vw; */
+  max-width: 1300px;
+  height: auto;
+  margin: auto;
+  padding: 0 0;
 }
 
-.latest_news_header {
-  align-self: flex-start;
-  height: 3rem;
-  /* width: 100%; */
-  background: grey;
+.latest_news p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #aaa;
 }
 
-.latest_news_column {
+.latest_news a,
+.latest_news a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.latest_news span {
+  margin-left: 0.5rem;
+}
+
+.latest-news-head {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.latest-news-head:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.column {
   display: flex;
-  flex-wrap: wrap;
-  height: 50vh;
-  /* width: 100%; */
-  background: cadetblue;
+  align-items: center;
 }
 
-.latest_news_div {
+#img-back-1,
+#img-back-2,
+#img-back-3,
+#img-back-4,
+#img-back-5,
+#img-back-6 {
+  height: 10rem;
+  background-size: cover;
+}
+
+#img-back-1 {
+  background-image: url(images/stars.png);
+}
+
+#img-back-2 {
+  background-image: url(images/programmer.jpg);
+}
+
+#img-back-3 {
+  background-image: url(images/bitcoin.jpg);
+}
+
+#img-back-4 {
+  background-image: url(images/tablet.jpg);
+}
+
+#img-back-5 {
+  background-image: url(images/couple.jpeg);
+}
+
+#img-back-6 {
+  background-image: url(images/trump.jpg);
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.card-cover {
   display: flex;
   flex-direction: column;
-   width: 25%;
-   height: 50vh;
-   background: rgb(218, 215, 215);
+  margin-right: 1rem;
 }
