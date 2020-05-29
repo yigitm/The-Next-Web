@@ -34,21 +34,30 @@
     font-weight: 500;
   }
 
-  .nav-mobile-border {
-    padding: 1rem 1rem;
-    margin-top: 0;
-    margin-right: 0.3rem;
-    background-image: url(images/search.png);
-    background-repeat: no-repeat;
-    background-size: 1rem 1rem;
-    background-position: center;
-    border-left: double 0.5px rgb(226, 222, 222);
+  .img_fluid {
+    width: 100%;
+    height: auto;
   }
 
-  .nav-mobile-menu {
-    padding: 1.5rem 1rem;
-    margin-top: 0;
-    margin-right: 0.3rem;
-    border-left: double 0.5px rgb(226, 222, 222);
+  .mobile_nav_ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
   }
+
+  .list_item_mob {
+    display: block;
+  }
+
+  .list_item_mob a {
+    padding: 0 .3rem;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .fa-search, .fa-bars {
+    font-size: 1.3rem;
+  }
+
+
 }
