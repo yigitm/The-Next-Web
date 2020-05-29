@@ -100,3 +100,88 @@ nav {
   background-position: center;
   border-left: double 0.5px rgb(226, 222, 222);
 }
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  width: 100%;
+}
+
+.bg-style {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hearder {
+  width: 70vw;
+  background-image: url(images/hero_img.png);
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+ 
+}
+
+.bottom_header {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: rgb(252, 244, 244);
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(30deg, rgb(216, 101, 101) 70%, black 30%);
+  opacity: 0.5;
+}
+
+
+.article_container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 30vh;
+}
+
+.cover_article {
+   width: 100%;
+   height: 100%;
+}
+
+.cover_article_top {
+  background: gray;
+}
+
+.cover_article_bottom {
+  background: grey;
+}
+
+.latest_news {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  /* width: 100vw; */
+}
+
+.latest_news_header {
+  align-self: flex-start;
+  height: 3rem;
+  /* width: 100%; */
+  background: grey;
+}
+
+.latest_news_column {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  /* width: 100%; */
+  background: cadetblue;
+}
+
+.latest_news_div {
+  display: flex;
+  flex-direction: column;
+   width: 25%;
+   height: 50vh;
+   background: rgb(218, 215, 215);
+}
