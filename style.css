@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* next web */
 body {
   margin: 0;
   padding: 0;
@@ -99,7 +99,70 @@ nav {
   background-size: 1rem 1rem;
   background-position: center;
   border-left: double 0.5px rgb(226, 222, 222);
+} /* Mobile Navigation */
+.mobile-nav {
+  display: grid;
 }
+.nav-bar {
+  position: relative;
+  height: 2.7rem;
+  background-color: whitesmoke;
+}
+
+.nav-mobile-logo {
+  padding: 1.5rem 3rem;
+  margin-left: -0.2rem;
+  background-image: url(images/tnw-logo.png);
+  background-repeat: no-repeat;
+  background-size: 6rem 5rem;
+  background-position: left, top 8px;
+}
+
+.nav-bar ul {
+  position: relative;
+  float: right;
+  padding: 0.7rem 0.1rem;
+  margin: 0 0;
+  border-left: double 2px rgb(226, 222, 222);
+}
+
+.nav-bar ul li {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.nav-bar img {
+  width: 1rem;
+  height: 1rem;
+}
+
+#bars {
+  float: right;
+}
+#search {
+  float: left;
+}
+
+.yellow-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: left;
+  height: 3.5rem;
+  background-color: #fd3;
+}
+
+.yellow-bar:hover {
+  cursor: pointer;
+}
+
+.yellow-bar p {
+  text-align: center;
+  line-height: 1.5rem;
+  color: #000;
+  background-color: #fd3;
+} /* Mobile Navigation  */
 
 .cover {
   display: flex;
@@ -243,4 +306,442 @@ nav {
   display: flex;
   flex-direction: column;
   margin-right: 1rem;
+}
+/* Mobile Main */
+.mobile-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0.2rem 0.2rem;
+}
+/* Mobile Sections */
+section {
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Mobile Cover */
+.mobile-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.mobile-cover-top,
+.mobile-cover-mid,
+.mobile-cover-bottom {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-cover-top:hover,
+.mobile-cover-mid:hover,
+.mobile-cover-bottom:hover {
+  cursor: pointer;
+}
+
+.mobile-cover-top {
+  background-image: url(images/xbox.jpg);
+}
+
+.mobile-cover-mid {
+  background-image: url(images/space.png);
+}
+
+.mobile-cover-bottom {
+  background-image: url(images/cover_div_img.jpg);
+}
+
+.mobile-head-tag {
+  margin-top: 20vh;
+  margin-bottom: -1vh;
+  font-family: "Roboto Mono", monospace;
+}
+
+.mobile-h1-tag {
+  margin-top: 2vh;
+}
+
+.mobile-sub-tag {
+  margin-top: -1rem;
+}
+/* Mobile - Latest News & Deals */
+.mobile-latest {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+  padding: 0 -30px;
+  width: 90%;
+}
+
+.mobile-latest h1 {
+  color: #ff4422;
+}
+
+.mobile-latest h1:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.mobile-latest-head {
+  position: relative;
+  margin-right: 0.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.elon-img {
+  width: 15.5rem;
+  height: 6rem;
+  background-image: url(images/elon-musk.png);
+}
+
+.bounch-img {
+  width: 24.2rem;
+  height: 6rem;
+  background-image: url(images/bounch.jpeg);
+}
+
+.smedia-img {
+  width: 19rem;
+  height: 6rem;
+  background-image: url(images/social-media.jpeg);
+}
+
+.drive-img {
+  width: 21rem;
+  height: 6rem;
+  background-image: url(images/drive.png);
+}
+
+.world-img {
+  width: 21.4rem;
+  height: 6rem;
+  background-image: url(images/word.jpg);
+}
+
+.cosmic-img {
+  width: 25.2rem;
+  height: 6rem;
+  background-image: url(images/cosmic.png);
+}
+
+.android-img {
+  width: 19.1rem;
+  height: 6rem;
+  background-image: url(images/android.png);
+}
+
+.zukerberg-img {
+  width: 20.2rem;
+  height: 6rem;
+  background-image: url(images/zuckerberg.jpg);
+}
+
+.mobile-latest article {
+  display: flex;
+  width: 99vw;
+  margin-bottom: 1rem;
+}
+
+.mobile-latest-text {
+  position: relative;
+  margin-top: -1.2rem;
+}
+
+.mobile-latest-text ul {
+  margin-left: -2.5rem;
+  margin-top: -1rem;
+}
+
+.mobile-latest-text ul li {
+  display: inline;
+  padding-right: 1rem;
+  font-size: 13px;
+  color: #555;
+}
+/* Mobile - Only Deals */
+.mobile-deals-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.mobile-deals-head h5:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.mobile-deals-h5 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #ff4422;
+}
+
+.mobile-deals-line {
+  text-decoration: line-through;
+}
+
+.management-img {
+  width: 15.4rem;
+  height: 6rem;
+  background-image: url(images/management.jpg);
+}
+
+.jumpstory-img {
+  width: 17.4rem;
+  height: 6rem;
+  background-image: url(images/jumpstory.jpg);
+}
+
+.itg-img {
+  width: 17.5rem;
+  height: 6rem;
+  background-image: url(images/itg.jpg);
+}
+
+.vpn-img {
+  width: 13.1rem;
+  height: 6rem;
+  background-image: url(images/vpn.jpg);
+}
+
+.excel-img {
+  width: 15.8rem;
+  height: 6rem;
+  background-image: url(images/excel.jpg);
+}
+
+.micro-img {
+  width: 15.8rem;
+  height: 6rem;
+  background-image: url(images/micro.jpg);
+}
+
+.slidebean-img {
+  width: 11.5rem;
+  height: 6rem;
+  background-image: url(images/slidebean.jpg);
+}
+
+.design-img {
+  width: 14.3rem;
+  height: 6rem;
+  background-image: url(images/design.jpg);
+}
+/* Mobile - Funding */
+.mobile-funding {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-card-head {
+  color: #ff4422;
+}
+
+.fa-chevron-right {
+  font-size: 1rem;
+}
+
+.mobile-card:hover {
+  cursor: pointer;
+}
+
+.mobile-card h2 {
+  font-size: 22px;
+}
+
+.mobile-card-head h5 {
+  line-height: 0.3rem;
+}
+
+.mobile-card-sub {
+  position: relative;
+}
+
+.mobile-card-sub img {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 1.4rem;
+  left: 1rem;
+}
+
+.mobile-card-sub h4 {
+  padding: 1rem 7rem 1rem 1rem;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #ff4422;
+}
+
+.mobile-card-items {
+  display: flex;
+  padding: 1rem 1rem;
+  padding-left: 4.7rem;
+  margin-top: -1.3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
+.text-card {
+  color: #000;
+  text-align: center;
+}
+
+.mobile-card-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+.mobile-card-items sub {
+  font-size: 10px;
+  color: rgb(99, 93, 93);
+}
+
+.mobile-card-invest {
+  display: flex;
+  flex-direction: column;
+  margin-top: -1rem;
+  background-color: #f7f5ec;
+}
+
+.mobile-invest-item {
+  display: flex;
+  margin: -1rem 0 -0.2rem 1rem;
+  padding-bottom: 0.1rem;
+}
+
+.mobile-invest-item p {
+  font-size: 15px;
+  color: rgb(46, 45, 45);
+}
+
+.fa-briefcase,
+.fa-tag {
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+}
+.mobile-invest-border {
+  margin: -0.5rem 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.mobile-invest-border p {
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(39, 37, 37);
+}
+
+.mobile-invest-border span {
+  color: #555;
+}
+/* Section - Story */
+.mobile-story h2 {
+  color: #ff4422;
+  font-size: 22px;
+}
+
+.mobile-story-head {
+  display: block;
+  padding-top: 2rem;
+  cursor: pointer;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-apps-img {
+  background-image: url(images/android.png);
+}
+
+.mobile-gear-img {
+  background-image: url(images/gear.png);
+}
+
+.mobile-tech-img {
+  background-image: url(images/tech.png);
+}
+
+.mobile-creative-img {
+  background-image: url(images/creative.jpg);
+}
+
+.mobile-podium-img {
+  background-image: url(images/podium.jpg);
+}
+
+.mobile-elonmusk-img {
+  background-image: url(images/elon-musk.png);
+}
+
+.mobile-launch-img {
+  background-image: url(images/launch.jpg);
+}
+
+.mobile-distract-img {
+  background-image: url(images/zuckerberg.jpg);
+}
+
+.mobile-story-items h2 {
+  color: #fff;
+}
+
+.fa-circle {
+  font-size: 2px;
+}
+
+.mobile-story-sub {
+  background-image: url(images/google.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.mobile-story-title {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3rem;
+  color: #ff4422;
+}
+
+.mobile-story-list {
+  padding: 0 0;
+}
+
+.mobile-story ul {
+  display: block;
+  margin-right: 0.2rem;
+  margin-left: -2rem;
+}
+
+.mobile-story ul li {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #ff4422;
+  list-style: disc;
+  list-style-position: inside;
+  border-bottom: 2px solid #eee;
+}
+
+.mobile-story a {
+  text-decoration: none;
+  color: #555;
+}
+.mobile-sub-tag {
+  padding-bottom: 1rem;
+  font-size: 16px;
 }

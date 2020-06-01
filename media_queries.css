@@ -1,63 +1,43 @@
-@media screen and (min-width: 769px) {
-  .nav-mobile {
+@media screen and (min-width: 768px) {
+  .desktop-nav-none {
     display: none;
+  }
+
+  .desktop-cover {
+    flex-direction: row;
+  }
+
+  .desktop-cover-side {
+    display: flex;
+    flex-direction: column;
+  }
+  .desktop-cover-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  .mobile-cover-top {
+    width: 70%;
+  }
+
+  .desktop-cover-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .mobile-latest article {
+    display: flex;
+    flex-direction: row;
   }
 }
 
-@media screen and (max-width: 769px) {
-  .nav-dark {
+@media screen and (max-width: 767px) {
+  .mobile-nav-none {
     display: none;
   }
-
-  .nav-light {
-    display: none;
-  }
-
-  .nav-mobile {
-    display: flex;
-    padding: 0 0;
-    align-items: center;
-    justify-content: space-between;
-    background-color: whitesmoke;
-  }
-
-  .nav-mobile ul li {
-    display: inline;
-    padding-right: 2rem;
-    margin-left: -1rem;
-  }
-
-  .nav-mobile ul li a {
-    text-decoration: none;
-    color: #aaa;
-    font-family: sans-serif;
-    font-weight: 500;
-  }
-
-  .img_fluid {
-    width: 100%;
-    height: auto;
-  }
-
-  .mobile_nav_ul {
-    display: flex;
-    list-style: none;
-    height: 100%;
-  }
-
-  .list_item_mob {
-    display: block;
-  }
-
-  .list_item_mob a {
-    padding: 0 .3rem;
-    text-align: center;
-    display: inline-block;
-  }
-
-  .fa-search, .fa-bars {
-    font-size: 1.3rem;
-  }
-
-
 }
