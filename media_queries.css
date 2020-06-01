@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .desktop-cover-items {
     display: flex;
     flex-direction: column;
@@ -19,9 +20,13 @@
     margin: 0;
     padding: 0.5rem;
   }
+  .mobile-cover {
+    height: 100%;
+  }
 
   .mobile-cover-top {
     width: 70%;
+    height: 100%;
   }
 
   .desktop-cover-side {

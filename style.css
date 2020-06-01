@@ -321,8 +321,17 @@ section {
 /* Mobile Cover */
 .mobile-cover {
   display: flex;
+  margin: 0;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.desktop-cover-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
 }
 
 .mobile-cover-top,
@@ -345,6 +354,7 @@ section {
 }
 
 .mobile-cover-top {
+  width: 100%;
   background-image: url(images/xbox.jpg);
 }
 
