@@ -225,469 +225,43 @@ nav {
   opacity: 0.5;
 }
 
-.article_container {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 30vw;
-  height: 60vh;
-}
-
-.latest_news {
-  display: flex;
-  flex-direction: column;
-  max-width: 1300px;
-  height: auto;
-  margin: auto;
-  padding: 0 0;
-}
-
-.latest_news p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #aaa;
-}
-
-.latest_news a,
-.latest_news a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.latest_news span {
-  margin-left: 0.5rem;
-}
-
-.latest-news-head {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  color: red;
-}
-
-.latest-news-head:hover {
-  color: black;
-  cursor: pointer;
-}
-
-#img-back-1,
-#img-back-2,
-#img-back-3,
-#img-back-4,
-#img-back-5,
-#img-back-6 {
-  height: 10rem;
-  background-size: cover;
-}
-
-#img-back-1 {
-  background-image: url(images/stars.png);
-}
-
-#img-back-2 {
-  background-image: url(images/programmer.jpg);
-}
-
-#img-back-3 {
-  background-image: url(images/bitcoin.jpg);
-}
-
-#img-back-4 {
-  background-image: url(images/tablet.jpg);
-}
-
-#img-back-5 {
-  background-image: url(images/couple.jpeg);
-}
-
-#img-back-6 {
-  background-image: url(images/trump.jpg);
-}
 .img-fluid {
   width: 100%;
   height: auto;
 }
 
-.mobile-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 0.2rem 0.2rem;
-}
-
-.mobile-latest {
+.latest_news_section {
   display: flex;
   flex-direction: column;
-  margin: 0 0;
-  padding: 0 -30px;
-  width: 90%;
+  justify-content: space-around;
 }
 
-.mobile-latest h1 {
-  color: #ff4422;
+.column {
+   display: flex;
+   justify-content: space-between;
 }
 
-.mobile-latest h1:hover {
-  cursor: pointer;
-  color: #000;
+.img_div {
+  width: 30%;
 }
 
-.mobile-latest-head {
-  position: relative;
-  margin-right: 0.5rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.news_img {
+  height: 8rem;
+  float: left;
+  margin: .5rem;
 }
 
-.elon-img {
-  width: 15.5rem;
-  height: 6rem;
-  background-image: url(images/elon-musk.png);
+.description {
+  width: 65%;
 }
 
-.bounch-img {
-  width: 24.2rem;
-  height: 6rem;
-  background-image: url(images/bounch.jpeg);
+.news_title {
+  font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
-.smedia-img {
-  width: 19rem;
-  height: 6rem;
-  background-image: url(images/social-media.jpeg);
-}
-
-.drive-img {
-  width: 21rem;
-  height: 6rem;
-  background-image: url(images/drive.png);
-}
-
-.world-img {
-  width: 21.4rem;
-  height: 6rem;
-  background-image: url(images/word.jpg);
-}
-
-.cosmic-img {
-  width: 25.2rem;
-  height: 6rem;
-  background-image: url(images/cosmic.png);
-}
-
-.android-img {
-  width: 19.1rem;
-  height: 6rem;
-  background-image: url(images/android.png);
-}
-
-.zukerberg-img {
-  width: 20.2rem;
-  height: 6rem;
-  background-image: url(images/zuckerberg.jpg);
-}
-
-.mobile-latest article {
-  display: flex;
-  width: 99vw;
-  margin-bottom: 1rem;
-}
-
-.mobile-latest-text {
-  position: relative;
-  margin-top: -1.2rem;
-}
-
-.mobile-latest-text ul {
-  margin-left: -2.5rem;
-  margin-top: -1rem;
-}
-
-.mobile-latest-text ul li {
-  display: inline;
-  padding-right: 1rem;
-  font-size: 13px;
-  color: #555;
-}
-/* Mobile - Only Deals */
-.mobile-deals-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.mobile-deals-head h5:hover {
-  cursor: pointer;
-  color: #000;
-}
-
-.mobile-deals-h5 {
-  font-family: sans-serif;
-  font-weight: lighter;
-  color: #ff4422;
-}
-
-.mobile-deals-line {
-  text-decoration: line-through;
-}
-
-.management-img {
-  width: 15.4rem;
-  height: 6rem;
-  background-image: url(images/management.jpg);
-}
-
-.jumpstory-img {
-  width: 17.4rem;
-  height: 6rem;
-  background-image: url(images/jumpstory.jpg);
-}
-
-.itg-img {
-  width: 17.5rem;
-  height: 6rem;
-  background-image: url(images/itg.jpg);
-}
-
-.vpn-img {
-  width: 13.1rem;
-  height: 6rem;
-  background-image: url(images/vpn.jpg);
-}
-
-.excel-img {
-  width: 15.8rem;
-  height: 6rem;
-  background-image: url(images/excel.jpg);
-}
-
-.micro-img {
-  width: 15.8rem;
-  height: 6rem;
-  background-image: url(images/micro.jpg);
-}
-
-.slidebean-img {
-  width: 11.5rem;
-  height: 6rem;
-  background-image: url(images/slidebean.jpg);
-}
-
-.design-img {
-  width: 14.3rem;
-  height: 6rem;
-  background-image: url(images/design.jpg);
-}
-/* Mobile - Funding */
-.mobile-funding {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.mobile-card-head {
-  color: #ff4422;
-}
-
-.fa-chevron-right {
-  font-size: 1rem;
-}
-
-.mobile-card:hover {
-  cursor: pointer;
-}
-
-.mobile-card h2 {
-  font-size: 22px;
-}
-
-.mobile-card-head h5 {
-  line-height: 0.3rem;
-}
-
-.mobile-card-sub {
-  position: relative;
-}
-
-.mobile-card-sub img {
-  position: absolute;
-  width: 3rem;
-  height: 3rem;
-  top: 1.4rem;
-  left: 1rem;
-}
-
-.mobile-card-sub h4 {
-  padding: 1rem 7rem 1rem 1rem;
-  text-align: center;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  background-color: #ff4422;
-}
-
-.mobile-card-items {
-  display: flex;
-  padding: 1rem 1rem;
-  padding-left: 4.7rem;
-  margin-top: -1.3rem;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: rgba(255, 68, 34, 0.08);
-}
-
-.text-card {
-  color: #000;
-  text-align: center;
-}
-
-.mobile-card-item p {
-  font-size: 16px;
-  color: #555;
-}
-
-.mobile-card-items sub {
-  font-size: 10px;
-  color: rgb(99, 93, 93);
-}
-
-.mobile-card-invest {
-  display: flex;
-  flex-direction: column;
-  margin-top: -1rem;
-  background-color: #f7f5ec;
-}
-
-.mobile-invest-item {
-  display: flex;
-  margin: -1rem 0 -0.2rem 1rem;
-  padding-bottom: 0.1rem;
-}
-
-.mobile-invest-item p {
-  font-size: 15px;
-  color: rgb(46, 45, 45);
-}
-
-.fa-briefcase,
-.fa-tag {
-  padding-top: 1rem;
-  padding-right: 0.5rem;
-}
-.mobile-invest-border {
-  margin: -0.5rem 0.5rem;
-  padding-bottom: 0.5rem;
-  border-top: 1px solid rgba(255, 68, 34, 0.25);
-}
-
-.mobile-invest-border p {
-  font-size: 14px;
-  font-weight: lighter;
-  color: rgb(39, 37, 37);
-}
-
-.mobile-invest-border span {
-  color: #555;
-}
-/* Section - Story */
-.mobile-story h2 {
-  color: #ff4422;
-  font-size: 22px;
-}
-
-.mobile-story-head {
-  display: block;
-  padding-top: 2rem;
-  cursor: pointer;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.mobile-apps-img {
-  background-image: url(images/android.png);
-}
-
-.mobile-gear-img {
-  background-image: url(images/gear.png);
-}
-
-.mobile-tech-img {
-  background-image: url(images/tech.png);
-}
-
-.mobile-creative-img {
-  background-image: url(images/creative.jpg);
-}
-
-.mobile-podium-img {
-  background-image: url(images/podium.jpg);
-}
-
-.mobile-elonmusk-img {
-  background-image: url(images/elon-musk.png);
-}
-
-.mobile-launch-img {
-  background-image: url(images/launch.jpg);
-}
-
-.mobile-distract-img {
-  background-image: url(images/zuckerberg.jpg);
-}
-
-.mobile-story-items h2 {
-  color: #fff;
-}
-
-.fa-circle {
-  font-size: 2px;
-}
-
-.mobile-story-sub {
-  background-image: url(images/google.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-}
-
-.mobile-story-title {
-  display: flex;
-  width: 70%;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.3rem;
-  color: #ff4422;
-}
-
-.mobile-story-list {
-  padding: 0 0;
-}
-
-.mobile-story ul {
-  display: block;
-  margin-right: 0.2rem;
-  margin-left: -2rem;
-}
-
-.mobile-story ul li {
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 16px;
-  color: #ff4422;
-  list-style: disc;
-  list-style-position: inside;
-  border-bottom: 2px solid #eee;
-}
-
-.mobile-story a {
-  text-decoration: none;
-  color: #555;
-}
-.mobile-sub-tag {
-  padding-bottom: 1rem;
-  font-size: 16px;
+.more_info {
+  font-size: .9rem;
 }
 
 footer,
@@ -717,9 +291,8 @@ footer,
 
 .bottom_footer {
   background-color: rgb(14, 13, 13);
-  height: 10vh;
-  justify-content: center;
-  align-items: center;
+  height: 15vh;
+  text-align: center;
   color: #fff;
   font-size: smaller;
   padding: .5rem;
