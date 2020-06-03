@@ -1,7 +1,108 @@
 @media screen and (min-width: 768px) {
-  .nav-dark,
-  .nav-light {
+  .large_nav_bar {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background: #fff;
+    width: 100%;
+  }
+
+  .nav_logo {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+  }
+
+  .nav_logo,
+  .main_nav_content {
+    height: 100%;
+  }
+
+  .main_nav_content {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dark_nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 17);
+    color: #fff;
+  }
+
+  .navbar_nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dark_nav_list_item,
+  .light_nav_list_item {
+    float: left;
+  }
+
+  .light_nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list_anchor {
+    text-decoration: none;
+    color: #777785;
+    padding: 0 0.8rem 0 0;
+  }
+
+  .upcase {
+    text-transform: uppercase;
+  }
+
+  .light_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    border-left: 1px solid gray;
+  }
+
+  .nav_search {
+    text-decoration: none;
+    color: #777785;
+    font-size: 1.2rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .dropdown_items {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: #fff;
+  }
+
+
+  .dropdown_items a {
+    color: rgb(250, 244, 244);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid gray;
+  }
+
+  .dropdown_items a:hover {
+    background: gray;
+    color: black;
+  }
+
+  .dropdown_btn:hover .dropdown_items {
+    display: block;
   }
 
   .desktop-nav-none {
@@ -38,19 +139,20 @@
 
   .container {
     display: flex;
+    height: 70vh;
+    padding: 0 0.3rem;
   }
 
   .hero_section {
     width: 65%;
     height: auto;
     margin: 0 0.5rem 0 0;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .logo {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: none;
   }
 
   .mobile-header-mid {
@@ -190,10 +292,30 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .large_nav_bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  .nav_logo {
+    display: none;
+  }
+
   .logo {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .hero_section {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
 
