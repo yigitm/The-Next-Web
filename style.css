@@ -153,50 +153,65 @@ nav {
 }
 
 .container {
-  height: 80vh;
+  height: 100vh;
+  margin-bottom: 4rem;
 }
 
 .mobile-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  height: 50vh;
 }
 
 .overlay {
-  position: absolute;
-  background: linear-gradient(-45deg, rgb(14, 13, 13), rgb(17, 15, 15));
-  height: 100%;
-  width: 100%;
-  opacity: 0.55;
+  position: abosute;
+  display: none;
 }
 
 .hero_section {
   position: relative;
-  background-image: url(images/xbox.jpg);
+  background: linear-gradient(rgba(160, 156, 156, 0.5), rgba(14, 13, 13, 0.5)) , url(images/xbox.jpg) center center;
+  background-size: cover;
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-bottom: 0.5rem;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.hero_logo {
+  font-size: 1rem;
+}
+
+.hidden {
+  visibility: hidden;
 }
 .mobile-header-mid {
   position: relative;
-  background-image: url(images/cover_div_img.jpg);
+  background: linear-gradient(rgba(160, 156, 156, 0.5), rgba(14, 13, 13, 0.5)) , url(images/cover_div_img.jpg) center center;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 50%;
+  height: 49%;
 }
 .mobile-header-bottom {
   position: relative;
-  background-image: url(images/bicycle.1.jpg);
+  background: linear-gradient(rgba(243, 241, 241, 0.5), rgba(12, 10, 10, 0.5)) , url(images/bicycle.1.jpg) center center;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 50%;
+  height: 49%;
 }
 
 .pd_all_round {
@@ -329,7 +344,7 @@ nav {
 .orangered_p {
   background: orangered;
   margin: 0;
-  padding: .5rem 7rem;
+  padding: .5rem 0 .5rem 7rem;
   text-align: left;
   display: block;
 }
@@ -338,7 +353,7 @@ nav {
   background: pink;
   padding: .5rem;
   display: block;
-  padding: .5rem 7rem;
+  padding: .5rem 0 .5rem 7rem;
   text-align: left;
 }
 
@@ -354,18 +369,24 @@ nav {
 
 .tag, .briefcase {
   display: block;
+  font-size: .8rem;
   padding: .8rem 0.5rem;
 }
 
 .bottom_p {
   border-top: 1px solid gray;
   padding: 1rem .5rem;
+  font-size: .8rem;
 }
 
 .bottom_p span {
   display: block;
   margin: .7rem 0;
   font-size: .75rem;
+}
+
+.section_territory {
+  padding: .5rem;
 }
 
 .apps_section,
@@ -400,38 +421,47 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   color: #fff;
+  
 }
 
 .top_apps_body {
-  background: url(images/couple.jpeg);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/programmer.jpg) center center;
+  background-size: cover;
 }
 
 .top_gear_body {
-  background: url(images/bitcoin.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/bitcoin.jpg) center center;
+  background-size: cover;
 }
 
 .top_tech_body {
-  background: url(images/cosmic.png);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/cosmic.png) center center;
+  background-size: cover;
 }
 
 .top_creative_body {
-  background: url(images/bikes.1.jpg);
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/bikes.1.jpg) center center;
+  background-size: cover;
 }
 
 .top_podium_body {
-  background: url(images/tablet.1.jpg)
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/tablet.1.jpg) center center;
+  background-size: cover;
 }
 
 .top_insights_body {
-  background: url(images/design.jpg);
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/design.jpg) center center;
+  background-size: cover;
 }
 
 .top_launch_body {
-  background: url(images/bounch.jpeg);
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/bounch.jpeg) center center;
+  background-size: cover;
 }
 
 .top_distract_body {
-  background: url(images/programmer.jpg);
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/programmer.jpg) center center;
+  background-size: cover;
 }
 .all_rnd_pd {
   padding: 0.4rem;

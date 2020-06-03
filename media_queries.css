@@ -42,6 +42,13 @@
     margin: 0 0.5rem 0 0;
   }
 
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .mobile-header {
     width: 35%;
     height: auto;
@@ -49,7 +56,23 @@
     flex-direction: column;
   }
 
+  .mobile-header-mid {
+    position: relative;
+    background-image: url(images/cover_div_img.jpg);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50%;
+  }
   .mobile-header-bottom {
+    position: relative;
+    background-image: url(images/bicycle.1.jpg);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50%;
     margin-top: 0.5rem;
   }
 
@@ -86,7 +109,6 @@
     margin: auto;
   }
 
-  
   .fund_section_header {
     display: flex;
     justify-content: space-between;
@@ -102,7 +124,7 @@
   .section_item {
     text-decoration: none;
     display: inline;
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
   }
 
   .section_item:not(:last-child) {
@@ -170,6 +192,14 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .latest_news_section,
   .latest_deals_section {
     max-width: 1000px;
@@ -255,7 +285,7 @@
   .insights_section,
   .launch_section,
   .distract_section {
-    width: 30%;
+    width: 31.56%;
     padding: 0;
     margin: 0 1rem 1rem 0;
     box-shadow: 10px 10px 10px grey;
