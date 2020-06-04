@@ -212,6 +212,10 @@
     width: 98%;
   }
 
+  .col-align {
+    justify-self: flex-start;
+  }
+
   .news_title {
     font-size: 1rem;
     font-weight: bold;
