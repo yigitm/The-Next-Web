@@ -210,10 +210,8 @@
 
   .description {
     width: 91%;
-
     width: 100%;
     padding: 0.3rem;
-    width: 98%;
   }
 
   .col-align {
@@ -237,15 +235,16 @@
   }
 
   .fund_section_header {
-    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
     max-width: 1000px;
-    margin: auto;
   }
 
   .more_fund_info {
-    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-left: 18rem;
   }
 
   .section_item {
@@ -375,22 +374,23 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 4rem auto;
-  }
-
-  .fund_section_header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
     max-width: 1000px;
     margin: auto;
   }
 
+  .fund_section_header {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1000px;
+  }
+
   .more_fund_info {
-    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-left: 25rem;
   }
 
   .section_item {

@@ -211,6 +211,15 @@ body {
   justify-content: center;
 }
 
+.fund_section_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
 .section_title {
   color: orangered;
 }
@@ -219,6 +228,12 @@ body {
   display: block;
   color: orangered;
   cursor: pointer;
+}
+
+.more_fund_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
 }
 
 .funding_article {
@@ -456,6 +471,7 @@ footer,
   flex-direction: column;
   justify-content: center;
 }
+
 footer p,
 .bottom_footer p,
 .social_media_icon {
@@ -464,7 +480,6 @@ footer p,
 
 .top_footer {
   background-color: rgb(49, 47, 47);
-
   height: 20vh;
   align-items: center;
   justify-content: center;
