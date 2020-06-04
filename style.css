@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 50%;
 }
 
 .large_nav_bar {
@@ -463,12 +464,14 @@ footer p,
 
 .top_footer {
   background-color: rgb(49, 47, 47);
+
   height: 20vh;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .top_footer a {
+  width: 80%;
   color: #aaa;
 }
 
@@ -508,7 +511,7 @@ footer p,
 }
 
 .bottom_footer p {
-  margin-right: 5rem;
+  text-align: center;
 }
 
 .bottom_footer img {
