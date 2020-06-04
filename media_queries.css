@@ -284,11 +284,23 @@
     box-shadow: 10px 10px 10px grey;
   }
 
-  footer,
   .top_footer,
-  .bottom_footer {
-    display: flex;
-    flex-direction: column;
+  .bottom-footer {
+    font-size: 20px;
+  }
+
+  .bottom_footer ul {
+    display: inline;
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .bottom_footer ul li {
+    display: inline;
+    padding-left: 0;
+  }
+
+  .bottom-footer-logo {
   }
 }
 
@@ -409,11 +421,5 @@
     padding: 0;
     margin: 0 1rem 1rem 0;
     box-shadow: 10px 10px 10px grey;
-  }
-
-  .bottom_footer img {
-    width: 18%;
-    height: 18%;
-    margin-right: -4.4rem;
   }
 }
