@@ -185,6 +185,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+<<<<<<< HEAD
+=======
+  }
+
+  .section_header {
+    margin-left: 1.5rem;
+>>>>>>> 1f2acd6c82a10e883bb7fc79e6cec76713ded16e
   }
 
   .column {
@@ -196,7 +203,11 @@
 
   .img_div {
     width: 100%;
+<<<<<<< HEAD
     height: 15rem;
+=======
+    height: 12rem;
+>>>>>>> 1f2acd6c82a10e883bb7fc79e6cec76713ded16e
   }
 
   .news_img {
@@ -205,8 +216,16 @@
   }
 
   .description {
+<<<<<<< HEAD
     width: 100%;
     padding: .3rem;
+=======
+    width: 98%;
+  }
+
+  .col-align {
+    justify-self: flex-start;
+>>>>>>> 1f2acd6c82a10e883bb7fc79e6cec76713ded16e
   }
 
   .news_title {
@@ -248,7 +267,8 @@
   }
 
   .funding_article {
-    width: 40%;
+    width: 28%;
+    font-size: 10%;
   }
 
   .section_territory {
@@ -356,14 +376,14 @@
 
   .img_div {
     width: 100%;
-    height: 12rem;
+    height: 100%;
   }
 
   .news_img {
-    display: block;
-    width: 100%;
     height: 100%;
+    display: block;
     margin: 0;
+    width: 100%;
   }
 
   .description {
@@ -390,7 +410,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     max-width: 1000px;
     margin: 4rem auto;
