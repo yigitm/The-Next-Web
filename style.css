@@ -224,6 +224,7 @@ body {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 5px 5px 5px gray;
+  margin-right: 1rem;
   margin-bottom: 0.7rem;
 }
 
