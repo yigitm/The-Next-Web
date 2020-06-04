@@ -40,6 +40,21 @@ body {
   border-left: double 2px rgb(226, 222, 222);
 }
 
+.additional_link li {
+  padding-bottom: 2rem;
+  margin-right: 1rem;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.bottom_apps_body ul li {
+  color: red;
+  padding: 0.5rem 0;
+}
+
 .nav-bar ul li {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -84,7 +99,8 @@ body {
 
 .hero_section {
   position: relative;
-  background: linear-gradient(144deg, #ee0a0a, rgba(228, 207, 207, 0.5) 100%),
+  background:
+    linear-gradient(144deg, #ee0a0a, rgba(228, 207, 207, 0.5) 100%),
     url(images/hero_img.1.png) center center;
   background-size: cover;
   color: #fff;
@@ -108,7 +124,8 @@ body {
 
 .mobile-header-mid {
   position: relative;
-  background: linear-gradient(rgba(160, 156, 156, 0.5), rgba(14, 13, 13, 0.5)),
+  background:
+    linear-gradient(rgba(160, 156, 156, 0.5), rgba(14, 13, 13, 0.5)),
     url(images/cover_div_img.jpg) center center;
   color: #fff;
   display: flex;
@@ -119,7 +136,8 @@ body {
 
 .mobile-header-bottom {
   position: relative;
-  background: linear-gradient(rgba(243, 241, 241, 0.5), rgba(12, 10, 10, 0.5)),
+  background:
+    linear-gradient(rgba(243, 241, 241, 0.5), rgba(12, 10, 10, 0.5)),
     url(images/bicycle.1.jpg) center center;
   color: #fff;
   display: flex;
@@ -354,49 +372,57 @@ body {
 }
 
 .top_apps_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/programmer.jpg) center center;
   background-size: cover;
 }
 
 .top_gear_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/bitcoin.jpg) center center;
   background-size: cover;
 }
 
 .top_tech_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/cosmic.png) center center;
   background-size: cover;
 }
 
 .top_creative_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/bikes.1.jpg) center center;
   background-size: cover;
 }
 
 .top_podium_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/tablet.1.jpg) center center;
   background-size: cover;
 }
 
 .top_insights_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/design.jpg) center center;
   background-size: cover;
 }
 
 .top_launch_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/bounch.jpeg) center center;
   background-size: cover;
 }
 
 .top_distract_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/programmer.jpg) center center;
   background-size: cover;
 }
@@ -454,11 +480,6 @@ body {
   line-height: 1.3rem;
 }
 
-.bottom_apps_body ul li {
-  color: red;
-  padding: 0.5rem 0;
-}
-
 .external_link {
   text-decoration: none;
   color: #000;
@@ -512,16 +533,6 @@ footer,
 .far,
 .fab {
   color: #fff;
-}
-
-.additional_link li {
-  padding-bottom: 2rem;
-  margin-right: 1rem;
-  list-style: none;
-  text-align: center;
-  text-decoration: none;
-  font-size: 80%;
-  cursor: pointer;
 }
 
 .bottom_footer {

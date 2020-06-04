@@ -299,9 +299,6 @@
     display: inline;
     padding-left: 0;
   }
-
-  .bottom-footer-logo {
-  }
 }
 
 @media screen and (min-width: 1024px) {
