@@ -144,12 +144,15 @@ body {
   height: auto;
 }
 
-.latest_news_section {
+.latest_news_section ,
+.latest_deals_section {
   padding: 0 1rem;
 }
 
-.latest_news_header {
+.latest_news_header ,
+.latest_deals_header {
   color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_column_wrapper {
@@ -219,7 +222,7 @@ body {
   position: absolute;
   width: 3.5rem;
   height: 3.5rem;
-  top: 0.9rem;
+  top: 0.7rem;
   left: 2rem;
 }
 
@@ -228,15 +231,15 @@ body {
 }
 
 .fund_img_two {
-  background: url(images/card-image.jpeg);
+  background: url(images/fund_image_one.PNG);
 }
 
 .fund_img_three {
-  background: url(images/micro.jpg);
+  background: url(images/fund_image_three.PNG);
 }
 
 .fund_img_four {
-  background: url(images/itg.jpg);
+  background: url(images/fund_image_two.PNG);
 }
 
 .orangered_p {

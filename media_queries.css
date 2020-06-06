@@ -222,7 +222,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1000px;
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .more_fund_info {
@@ -232,6 +232,12 @@
   .section_item {
     text-decoration: none;
     display: inline;
+    padding: 0 .5rem 0 .5rem;
+    font-size: 1rem;
+  }
+
+  #section_exception {
+    padding-left: 0;
   }
 
   .section_item:not(:last-child) {
@@ -240,7 +246,6 @@
 
   .funding_article {
     width: 30.5%;
-    
   }
 
   .hide_article {
@@ -287,6 +292,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .main_nav_content {
+    font-size: .8rem;
+  }
+
   .large_nav_bar {
     width: 100%;
     display: flex;
@@ -351,28 +360,42 @@
   }
 
   .funding_article {
-    width: 24%;
+    width: 23%;
+    margin: .3rem;
   }
 
   .funding_section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1000px;
+    justify-content: space-between;
+    max-width: 1100px;
     margin: auto;
   }
 
   .fund_section_header {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     max-width: 1000px;
+    padding: 0;
+  }
+
+  .more_fund_info {
+    margin-top: 1.5rem ;
+    padding: 0;
   }
 
   .section_item {
     text-decoration: none;
+    display: inline;
+    padding: 0 .5rem 0 .5rem;
+    font-size: 1rem;
+  }
+
+  .hide_article {
+    display: block;
   }
 
   .apps_section,
