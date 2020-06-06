@@ -6,7 +6,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 50%;
 }
 
 .large_nav_bar {
@@ -14,65 +13,29 @@ body {
 }
 
 .mobile-nav {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
 }
 
-.nav-bar {
-  position: relative;
-  height: 2.7rem;
-  background-color: whitesmoke;
+.right_mobile_nav_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-mobile-logo {
-  padding: 1.5rem 3rem;
-  margin-left: -0.2rem;
-  background-image: url(images/tnw-logo.png);
-  background-repeat: no-repeat;
-  background-size: 6rem 5rem;
-  background-position: left, top 8px;
+.search_icon,
+.menu {
+  padding: 0 1rem;
+  font-size: 1.2rem;
 }
 
-.nav-bar ul {
-  position: relative;
-  float: right;
-  padding: 0.7rem 0.1rem;
-  margin: 0 0;
-  border-left: double 2px rgb(226, 222, 222);
-}
-
-.additional_link li {
-  padding-bottom: 2rem;
-  margin-right: 1rem;
-  list-style: none;
-  text-align: center;
-  text-decoration: none;
-  font-size: 80%;
-  cursor: pointer;
-}
 
 .bottom_apps_body ul li {
   color: red;
   padding: 0.5rem 0;
 }
 
-.nav-bar ul li {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  list-style: none;
-}
-
-.nav-bar img {
-  width: 1rem;
-  height: 1rem;
-}
-
-#bars {
-  float: right;
-}
-
-#search {
-  float: left;
-}
 
 .yellow-bar {
   padding: 0.1rem;
@@ -81,15 +44,14 @@ body {
 }
 
 .container {
-  height: 100vh;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .mobile-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 50vh;
+  justify-content: space-evenly;
+  height: auto;
 }
 
 .overlay {
@@ -131,7 +93,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 49%;
+  height: auto;
+  margin-bottom: .7rem;
 }
 
 .mobile-header-bottom {
@@ -143,7 +106,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 49%;
+  height: auto;
 }
 
 .pd_all_round {
@@ -181,12 +144,42 @@ body {
   height: auto;
 }
 
-.latest_news_section,
-.latest_deals_section {
+.latest_news_section {
+  padding: 0 1rem;
+}
+
+.latest_news_header {
+  color: red;
+}
+
+.main_column_wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 1rem 0.5rem;
+}
+
+.story {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* position: relative; */
+}
+
+.story_img {
+  display: block;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 5rem;
+  margin: 0.5rem;
+}
+
+.story_title {
+  font-family: sans-serif;
+}
+
+.more_story_info {
+  font-size: .8rem;
+  font-family: sans-serif;
 }
 
 .section_header {
@@ -194,48 +187,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.column {
-  display: flex;
-  justify-content: space-between;
-}
-
-.img_div {
-  width: 30%;
-}
-
-.news_img {
-  height: auto;
-  float: left;
-  margin: 0.5rem;
-  width: 100%;
-}
-
-.description {
-  width: 65%;
-}
-
-.news_title {
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.more_info {
-  font-size: 0.9rem;
-}
 
 .funding_section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.fund_section_header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
+  padding: 1rem;
 }
 
 .section_title {
@@ -246,13 +200,9 @@ body {
   display: block;
   color: orangered;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.more_fund_info {
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
-}
 
 .funding_article {
   position: relative;
@@ -529,11 +479,6 @@ footer,
   background-color: #000;
 }
 
-.fas,
-.far,
-.fab {
-  color: #fff;
-}
 
 .bottom_footer {
   padding: 2rem;
@@ -567,6 +512,3 @@ footer,
   color: #fff;
 }
 
-.bottom-footer-logo {
-  width: 8%;
-}

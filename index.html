@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="media_queries.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
     <title>TNW</title>
   </head>
   <body>
@@ -37,7 +40,7 @@
                 </div>
               </li>
               <li class="dark_nav_list_item dropdown_btn">
-                <a class="list_anchor " href="#"
+                <a class="list_anchor" href="#"
                   >Business <i class="fas fa-sort-down"></i
                 ></a>
                 <div class="dropdown_items">
@@ -101,22 +104,12 @@
         </div>
       </div>
       <div class="mobile-nav desktop-nav-none">
-        <div class="nav-bar">
-          <a class="nav-mobile-logo" href="#"></a>
-          <ul>
-            <li id="bars">
-              <a class="nav-mobile-menu" href="#"
-                ><img src="images/menu-bar-red.png" alt="image"
-              /></a>
-            </li>
-          </ul>
-          <ul>
-            <li id="search">
-              <a class="nav-mobile-search" href="#"
-                ><img src="images/search.png" alt="image"
-              /></a>
-            </li>
-          </ul>
+        <div class="mobile-logo">
+          <img class="img-fluid" src="images/capture.PNG" alt="" />
+        </div>
+        <div class="right_mobile_nav_items">
+          <span class="search_icon"><i class="fas fa-search"></i></span>
+          <span class="menu"><i class="fas fa-bars"></i></span>
         </div>
       </div>
     </nav>
@@ -163,110 +156,113 @@
         </div>
       </div>
       <div class="latest_news_section">
-        <div class="section_header">
+        <div class="latest_news_header">
           <h2>Latest News ></h2>
         </div>
         <div class="main_column_wrapper">
-          <div class="column">
-            <div class="img_div">
-              <img src="images/android.png" alt="" class="news_img img-fluid" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                BMW is reportedly working on a 1,000HP all-electric M5 that’ll
-                rival Tesla’s Plaid Model S
+          <div class="story">
+            <img src="images/android.png" alt="story image" class="story_img" />
+            <div>
+              <h4 class="story_title">
+                New study suggests this extremely dense star cluster is stunting
+                planet formation
+              </h4>
+              <p class="more_story_info">
+                The Cosmic Companion.<span class="time_counter">
+                  3 hours ago</span
+                >
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-          <div class="column">
-            <div class="img_div">
-              <img
-                src="images/creative.jpg"
-                alt=""
-                class="news_img img-fluid"
-              />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                Polestar plugs into pan-European charging network to make EV
-                road trips easier
+          <div class="story">
+            <img
+              src="images/creative.jpg"
+              alt="story image"
+              class="story_img"
+            />
+            <div>
+              <h4 class="story_title">
+                Fortunes are growing for Instagram’s best and brightest. Bring it.
+              </h4>
+              <p class="more_story_info">
+                TNW Deals.<span class="time_counter"> 5 hours ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-          <div class="column">
-            <div class="img_div">
-              <img
-                src="images/elon-musk.png"
-                alt=""
-                class="news_img img-fluid"
-              />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                3 tech stocks that haven’t fully recovered yet — yes, they still
-                exist
+          <div class="story">
+            <img src="images/bounch.jpeg" alt="story image" class="story_img" />
+            <div>
+              <h4 class="story_title">
+                Bill Gates commits $750M to help Oxford vaccinate the world
+                against COVID-19
+              </h4>
+              <p class="more_story_info">
+                David Canellis.<span class="time_counter"> 1 day ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/jumpstory.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                7 ways to keep your personal information safe during protests
+          <div class="story">
+            <img src="images/bikes.jpg" alt="story image" class="story_img" />
+            <div>
+              <h4 class="story_title">
+                Call of Duty: Warzone now shows message of support for Black
+                Lives.
+              </h4>
+              <p class="more_story_info">
+                Mix.<span class="time_counter"> 3 hours ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-
-          <div class="column">
-            <div class="img_div">
-              <img src="images/cosmic.png" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                3 business lessons from the ‘90s that deserve a comeback
+          <div class="story">
+            <img
+              src="images/bitcoin.1.jpg"
+              alt="story image"
+              class="story_img"
+            />
+            <div>
+              <h4 class="story_title">
+                Who’s allowed to track my kids online?
+              </h4>
+              <p class="more_story_info">
+                The Markup.<span class="time_counter"> 3 hours ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/bitcoin.1.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                More than a million delivery drones expected in the skies by
-                2026
+          <div class="story">
+            <img
+              src="images/card-image.jpeg"
+              alt="story image"
+              class="story_img"
+            />
+            <div>
+              <h4 class="story_title">
+                Watch: Unboxing a $1,000 mail order electric car from China
+              </h4>
+              <p class="more_story_info">
+                Matthew Beedham.<span class="time_counter"> 1 day ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/bicycle.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                Google searches for ‘insomnia’ and ‘can’t sleep’ hit all-time
-                high during lockdown
+          <div class="story">
+            <img src="images/design.jpg" alt="story image" class="story_img" />
+            <div>
+              <h4 class="story_title">
+                Ohio’s government is helping its residents switch to EVs.
+              </h4>
+              <p class="more_story_info">
+                Cities Today.<span class="time_counter">2 days ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/algorithms.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                Can a robot decide my medical treatment?
+          <div class="story">
+            <img src="images/elon-musk.png" alt="story image" class="story_img" />
+            <div>
+              <h4 class="story_title">
+                For less than $6 each, get these 11 award-winner Mac apps.
+              </h4>
+              <p class="more_story_info">
+                TNW Deals.<span class="time_counter"> 1 day ago</span>
               </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
             </div>
           </div>
         </div>
@@ -327,6 +323,29 @@
           </p>
         </div>
         <div class="funding_article">
+          <div class="fund_img"></div>
+          <div>
+            <span class="orangered_p"> Agxio AI</span>
+            <span class="pinkish_p">
+              <span>£750</span> <small class="sm_text">VENTURE CAPITAL</small>
+            </span>
+          </div>
+
+          <p class="light_bg">
+            <span class="tag"
+              ><i class="fas fa-tag"></i>&nbsp; Information Technology, +2</span
+            >
+            <span class="briefcase"
+              ><i class="fas fa-briefcase"></i>&nbsp; Development Bank of
+              Wales</span
+            >
+          </p>
+          <p class="bottom_p">
+            Agxio secures £750k investment funding
+            <span>on UKTN (UK Tech News)</span>
+          </p>
+        </div>
+        <div class="funding_article hide_article">
           <div class="fund_img"></div>
           <div>
             <span class="orangered_p"> Agxio AI</span>
@@ -827,109 +846,8 @@
           </div>
         </section>
       </div>
-      <div class="latest_deals_section">
-        <div class="section_header">
-          <h2>Latest Deals ></h2>
-        </div>
-        <div class="main_column_wrapper">
-          <div class="column">
-            <div class="img_div">
-              <img src="images/drive.png" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                BMW is reportedly working on a 1,000HP all-electric M5 that’ll
-                rival Tesla’s Plaid Model S
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/jumpstory.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                Polestar plugs into pan-European charging network to make EV
-                road trips easier
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/hero_img.1.png" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                3 tech stocks that haven’t fully recovered yet — yes, they still
-                exist
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/podium.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                7 ways to keep your personal information safe during protests
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="img_div">
-              <img src="images/bounch.jpeg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                3 business lessons from the ‘90s that deserve a comeback
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/recharge.png" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                More than a million delivery drones expected in the skies by
-                2026
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/stars.png" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                Google searches for ‘insomnia’ and ‘can’t sleep’ hit all-time
-                high during lockdown
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="img_div">
-              <img src="images/trump.jpg" alt="" class="news_img" />
-            </div>
-            <div class="description">
-              <p class="news_title">
-                Can a robot decide my medical treatment?
-              </p>
-              <p class="more_info">Matthew Beedham29 minutes ago</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
-    <footer>
+    <!-- <footer>
       <div class="top_footer">
         <ul class="social-media-list">
           <li class="social_media_icon">
@@ -957,16 +875,12 @@
       <div class="bottom_footer">
         <ul>
           <li>
-            <img
-              class="bottom-footer-logo"
-              src="images/tnw.svg"
-              alt="images"
-            />&copy; 2006–2020 The Next Web B.V.
+            &copy; 2006–2020 The Next Web B.V.
           </li>
           <li>Made with <span class="heart">♥</span> in Amsterdam.</li>
           <li>Powered by <span class="stackpath">STACKPATH</span></li>
         </ul>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
