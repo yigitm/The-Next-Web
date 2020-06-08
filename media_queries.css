@@ -23,7 +23,7 @@
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .dark_nav {
@@ -33,7 +33,7 @@
     color: #fff;
     height: 50%;
     align-items: center;
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
   }
 
   .navbar_nav {
@@ -123,7 +123,7 @@
 
   .desktop-yellow-bar {
     display: flex;
-    padding: .5rem 2.3rem;
+    padding: 0.5rem 2.3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 16px;
@@ -184,12 +184,11 @@
     margin-top: 0.5rem;
   }
 
-
   .section_header {
     margin-left: 1.5rem;
   }
 
-  
+
   .main_column_wrapper {
     display: flex;
     flex-direction: row;
@@ -197,17 +196,16 @@
     justify-content: flex-start;
   }
 
-
   .story {
     width: 32.2%;
     display: flex;
     flex-direction: column;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 
   .story_img {
     width: 100%;
-    height:  50%;
+    height: 50%;
   }
 
   .col-align {
@@ -239,7 +237,7 @@
   .section_item {
     text-decoration: none;
     display: inline;
-    padding: 0 .5rem 0 .5rem;
+    padding: 0 0.5rem 0 0.5rem;
   }
 
   #section_exception {
@@ -287,8 +285,7 @@
 
 @media screen and (min-width: 1024px) {
   .main_nav_content {
-    font-size: .8rem;
-    
+    font-size: 0.8rem;
   }
 
   .large_nav_bar {
@@ -329,7 +326,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
   }
 
   .story {
@@ -340,11 +336,11 @@
 
   .story_img {
     width: 100%;
-    height:  50%;
+    height: 50%;
   }
 
   .story_title {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .section_territory {
@@ -357,7 +353,7 @@
 
   .funding_article {
     width: 23%;
-    margin: .3rem;
+    margin: 0.3rem;
   }
 
   .funding_section {
@@ -379,13 +375,13 @@
   }
 
   .more_fund_info {
-    margin-top: .4rem;
+    margin-top: 0.4rem;
   }
 
   .section_item {
     text-decoration: none;
     display: inline;
-    padding:  0 .5rem;
+    padding: 0 0.5rem;
     font-size: 1.2rem;
   }
 
