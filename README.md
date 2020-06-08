@@ -4,7 +4,7 @@ This project consists of building a clone of [THE NEXT WEB](https://thenextweb.c
 
 ## Project Design:
 
-![Project Design](images/final_page.png)
+![Project Design](images/screenshot_page.png)
 
 The goal is to make a responsive clone of "THE NEXT WEB" site
 
