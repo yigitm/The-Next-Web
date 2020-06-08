@@ -24,7 +24,7 @@ This landing page is designed using elements aligned with a combination of CSS p
 
 ## Live Demo :
 
-[Project Live Link](https://raw.githack.com/yigitm/The-Next-Web/TNW-Homepage/index.html)
+[Project Live Link](https://raw.githack.com/yigitm/The-Next-Web/master/index.html)
 
 ## Authors :
 
