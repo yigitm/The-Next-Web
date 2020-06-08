@@ -233,14 +233,13 @@
   }
 
   .more_fund_info {
-    padding: 0 .5rem;
+    margin: 1rem 0;
   }
 
   .section_item {
     text-decoration: none;
     display: inline;
     padding: 0 .5rem 0 .5rem;
-    font-size: 1rem;
   }
 
   #section_exception {
@@ -281,20 +280,8 @@
     box-shadow: 10px 10px 10px grey;
   }
 
-  .top_footer,
-  .bottom-footer {
-    font-size: 20px;
-  }
-
-  .bottom_footer ul {
+  .bottom_footer span:not(.heart) {
     display: inline;
-    padding: 0;
-    margin-right: 0;
-  }
-
-  .bottom_footer ul li {
-    display: inline;
-    padding-left: 0;
   }
 }
 
@@ -392,15 +379,14 @@
   }
 
   .more_fund_info {
-    margin-top: 1.5rem ;
-    padding: 0;
+    margin-top: .4rem;
   }
 
   .section_item {
     text-decoration: none;
     display: inline;
-    padding: 0 .5rem 0 .5rem;
-    font-size: 1rem;
+    padding:  0 .5rem;
+    font-size: 1.2rem;
   }
 
   .hide_article {
